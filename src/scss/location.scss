@@ -1,0 +1,32 @@
+.location {
+    &__content-wrapper {
+        min-height: 350px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__title {
+        margin-bottom: 30px;
+    }
+
+    &__content {
+        & address {
+            font-style: normal;
+            margin-bottom: 20px;
+        }
+    
+        & a {
+            text-decoration: none;
+            color: inherit;
+            margin-bottom: 20px;
+            display: block;
+    
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+}

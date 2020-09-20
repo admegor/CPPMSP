@@ -1,0 +1,35 @@
+.news {
+    padding-top: 80px;
+    position: relative;
+    margin-bottom: 70px;
+
+    &__title {
+        margin-bottom: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 400px;
+        margin-bottom: 60px;
+
+        &:first-child {
+            width: 100%;
+        }
+
+        &:nth-child(2) {
+            margin-right: 5px;
+        }
+    }
+
+    &__image {
+        border-radius: 20px;
+    }
+}

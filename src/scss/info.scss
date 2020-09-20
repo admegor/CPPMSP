@@ -1,0 +1,22 @@
+.info {
+    margin-bottom: 90px;
+
+    &__slider-item {
+        display: flex;
+        min-height: 350px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__content {
+        width: 540px;
+    }
+
+    &__text {
+        line-height: 28px;
+
+        & span {
+            font-weight: 500;
+        }
+    }
+}

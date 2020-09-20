@@ -1,0 +1,72 @@
+.sidebar {
+    &__item {
+        width: 100%;
+        background-color: $main;
+        border-radius: 20px;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+.accessibility__button {
+    color: $text;
+    padding-left: 43px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        top: -6px;
+        left: 0;
+
+        background: url('../img/eye.svg') no-repeat center center;
+    }
+
+    &:hover {
+        color: $accent;
+    }
+}
+
+.questionnaire_content-button {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.sidebar-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 38px;
+
+    letter-spacing: 0.03em;
+}
+
+.questionnaire__content-text {
+    margin-bottom: 20px;
+}
+
+.useful-links__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.useful-links__title {
+    margin-bottom: 22px;
+}
+
+.useful-links__item + .useful-links__item {
+    margin-top: 20px;
+}
+
+.useful-links__image {
+    border-radius: 10px;
+}

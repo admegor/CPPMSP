@@ -1,0 +1,33 @@
+.hero {
+    margin-bottom: 100px;
+    height: 530px;
+
+    &__wrap {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__image-wrap {
+        position: absolute;
+        top: -50px;
+        right: -50px;
+        z-index: -1;
+    }
+
+    &__content {
+        width: 570px;
+        margin-top: -100px;
+    }
+
+    &__subtitle {
+        margin: 0;
+    }
+
+    &__petal {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+}
