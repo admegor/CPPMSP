@@ -16,6 +16,11 @@
         justify-content: space-between;
     }
 
+    &__item-title {
+        margin: 0;
+        margin-bottom: 17px;
+    }
+
     &__item {
         width: 400px;
         margin-bottom: 60px;
@@ -31,5 +36,6 @@
 
     &__image {
         border-radius: 20px;
+        margin-bottom: 40px;
     }
 }
