@@ -461,11 +461,11 @@ th {
 }
 
 @font-face {
-  font-family: "pribambas";
-  font-display: swap;
-  src: url("../fonts/pribambas-Regular.woff") format("woff"), url("../fonts/pribambas-Regular.woff2") format("woff2");
+  font-family: "Pribambas";
+  src: url("../fonts/pribambas.woff") format("woff"), url("../fonts/pribambas.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 html {
@@ -544,12 +544,12 @@ main {
   font-size: 36px;
   line-height: 50px;
   letter-spacing: 0.03em;
-  font-family: "pribambas";
+  font-family: "Pribambas";
   margin: 0;
 }
 
 .title-block {
-  font-family: "pribambas";
+  font-family: "Pribambas";
   font-size: 30px;
   line-height: 38px;
   letter-spacing: 0.05em;
