@@ -14,9 +14,11 @@
 
         & address {
             font-style: normal;
+            padding: 0 5px;
         }
-
+        
         & a {
+            padding: 0 5px;
             text-decoration: none;
             color: inherit;
 
@@ -24,6 +26,10 @@
                 text-decoration: underline;
             }
         }
+    }
+
+    &__time-work {
+        padding: 0 5px;
     }
 
     &__logo {
@@ -38,10 +44,11 @@
             padding: 0;
             list-style: none;
             display: flex;
-            justify-content: space-between;
+            flex-wrap: wrap;
+            justify-content: flex-start;
 
             & li {
-                padding: 16px 0;
+                padding: 16px 20px;
                 position: relative;
                 
                 & a {
@@ -124,5 +131,35 @@
         visibility: visible;
         display: block;
         opacity: 1;
+    }
+}
+
+@media (max-width: 900px) {
+    .header {
+        background-color: $main;
+
+        &__content {
+            display: none;
+        }
+
+        &__nav ul {
+            position: fixed;
+            background-color: $main;
+            z-index: 10;
+            width: 100%;
+            flex-direction: column;
+
+            & li {
+                padding: 10px 0;
+
+                & a.active + .sub-menu {
+                    visibility: visible;
+                    display: block;
+                    opacity: 1;
+                    position: relative;
+                    top: 0;
+                }
+            }
+        }
     }
 }
